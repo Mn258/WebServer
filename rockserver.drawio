@@ -56,10 +56,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b_20STS_lAYRM_HVw5Nr-23" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;startRead&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;startWrite&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="280" width="240" height="80" as="geometry" />
+          <mxGeometry x="600" y="320" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="b_20STS_lAYRM_HVw5Nr-25" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;doRead&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;doWrite&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="440" width="240" height="80" as="geometry" />
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_20STS_lAYRM_HVw5Nr-25" target="b_20STS_lAYRM_HVw5Nr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-25" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;doRead&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-27" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;read and handle msg&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;request notify&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="475" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_20STS_lAYRM_HVw5Nr-30" target="b_20STS_lAYRM_HVw5Nr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_20STS_lAYRM_HVw5Nr-30" target="b_20STS_lAYRM_HVw5Nr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-30" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;doRecv&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_20STS_lAYRM_HVw5Nr-33" target="b_20STS_lAYRM_HVw5Nr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-33" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;doRsp&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="640" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b_20STS_lAYRM_HVw5Nr-35" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;if msg is response&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;do rockCtx fiber&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="640" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
